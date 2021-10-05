@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./bk.jpg) no-repeat center center;
+  background-size: cover;
+  font-family: "Orbitron", sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 306px;
+  margin: 50px auto;
+}
+
+.game-cell {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 1px #ffffff;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+}
+
+.titulo {
+  color: rgb(255, 255, 255);
+}
+
+.game-restart {
+  padding: 10px 10px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  border-radius: 20px;
+}
